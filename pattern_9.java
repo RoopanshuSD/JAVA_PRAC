@@ -6,6 +6,7 @@ public class pattern_9 {
     public static void main(String[] args) {
         Scanner roop = new Scanner(System.in);
         int n = roop.nextInt();
+        roop.close();
         int row = 1;
         int space = n-1;
         int star = 1;

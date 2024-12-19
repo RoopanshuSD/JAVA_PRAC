@@ -6,6 +6,7 @@ public class pattern_7 {
     public static void main(String[] args) {
         Scanner roop = new Scanner(System.in);
         int n = roop.nextInt();
+        roop.close();
         int i = 1;
         while (i <= n) {
             System.out.print("* ");

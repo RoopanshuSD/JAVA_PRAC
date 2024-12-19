@@ -5,6 +5,7 @@ public class pattern_5 {
     public static void main(String[] args) {
         Scanner roop = new Scanner(System.in);
         int n = roop.nextInt();
+        roop.close();
         int row = 1;
         int space = 0;
         int star = n;

@@ -6,6 +6,7 @@ public class pattern_17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
         int row = 1;
         int star = (n-1)/2;
         int space = 1;
