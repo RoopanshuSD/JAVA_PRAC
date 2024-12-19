@@ -6,6 +6,7 @@ public class prac {
     public static void main(String[] args) {
         Scanner roop = new Scanner(System.in);
         int n = roop.nextInt();
+        roop.close();
         int row = 1;
         while (row == 1 || row == n) {
             int i = 1;
